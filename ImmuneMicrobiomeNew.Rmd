@@ -992,7 +992,7 @@ colnames(df.nrbcadj) = c("nrbc", "bbymale", "enrollment_age",  "imrbthwghtg_all"
 save(get.coef.mziln,Transform.Data, genusdata.nozeros.prop.2, df.cd4tadj,df.cd8tadj, df.bcelladj, log.trans.generation, matrix.a.generation,matrix.x.generation, defining.row.1, defining.row.2 , 
      df.granadj, df.monoadj, df.nkadj, df.nrbcadj, file = "/Volumes/rc/genusjobs/inputdataadj.RData")
 
-
+save(df.bcelladj, genusdata.nozeros.prop.2, genusdata.nozeros, df.cd4tadj, df.cd8tadj, df.granadj, df.monoadj, df.nkadj, df.nrbcadj,df.cd8tcd4tadj, file = "inputdataMZILN.Rdata")
 
 #bcell
 selected.bcellalladj = matrix(0, nrow = 195, ncol = 195)
