@@ -6,3 +6,5 @@ This repository contains code for the manuscript titled "Umbilical Cord Blood Im
 
 ImmuneMicrobiomeNew.Rmd contains R code for data cleaning and processing, exploratory data analysis, and preliminary analysis. 
 
+marginal_model.Rmd contains R code for main statistical analysis. 
+
